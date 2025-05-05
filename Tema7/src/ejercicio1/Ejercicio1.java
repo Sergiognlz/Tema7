@@ -25,7 +25,7 @@ public class Ejercicio1 {
 
 			
 			while(!res.next()) {
-				System.out.println(res.getS);
+				System.out.println();
 			}
 			
 			
