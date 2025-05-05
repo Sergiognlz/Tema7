@@ -4,7 +4,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.sql.Statement;
+
+import com.mysql.cj.x.protobuf.MysqlxDatatypes.Scalar.String;
+import com.mysql.cj.xdevapi.Statement;
 
 public class Ejercicio1 {
 	public static void main(String[] args) {
