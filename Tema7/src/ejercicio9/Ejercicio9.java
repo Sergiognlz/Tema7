@@ -15,7 +15,7 @@ public class Ejercicio9 {
 		try (Connection con = DriverManager.getConnection(Constantes.URL, Constantes.USUARIO, Constantes.CONTRASEÑA)) {
 			// consulta de media de nota donde tenemos en cuenta el id del curso y la nota
 			String select = "select nombre, fecha_nacimiento from estudiantes";
-			String cadena;
+		
 
 			// sentencia paremetrizada creando objeto de tipo PreparedStantement
 			PreparedStatement pst = con.prepareStatement(select);
