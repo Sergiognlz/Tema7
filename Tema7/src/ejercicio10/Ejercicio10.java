@@ -47,7 +47,7 @@ public class Ejercicio10 {
 				System.out.println(res.getString("nombre") + " " + res.getString("fecha_nacimiento"));
 			}
 			if(!existe) {
-				System.out.println("El curso que busca no existe");
+				System.out.println("No existen alumnos matriculados en el curso indicado");
 			}
 
 			// capturamos excepción sql
